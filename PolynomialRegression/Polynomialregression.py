@@ -5,7 +5,7 @@ import pandas as pd
 
 #Importing The Dataset
 dataset = pd.read_csv('datasets_88705_204267_Real estate.csv')
-X = dataset.iloc[:,2:-1].values
+X = dataset.iloc[:,1:-1].values
 y = dataset.iloc[:,-1].values
 
 #Visualising The Dataset
