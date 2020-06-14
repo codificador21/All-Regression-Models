@@ -1,7 +1,4 @@
-#Importing The Libraries
-import numpy as np
-import matplotlib.pyplot as plt
-import pandas as pd
+
 
 #Importing The Dataset
 dataset = pd.read_csv('datasets_88705_204267_Real estate.csv')
